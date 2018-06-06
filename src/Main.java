@@ -1,4 +1,5 @@
 
+import course.Course;
 import student.Student;
 
 
@@ -16,6 +17,14 @@ public class Main {
         student1.getComputer().setProcessTact(2.4);
         student1.getComputer().setMemory(16.0);
         student1.getComputer().setHardDrive(500);
+        student1.info();
+        
+        
+        
+        Course kursQA = new Course();
+        kursQA.setName("QA");
+        
+        student1.setCourse(kursQA);
         student1.info();
     }
     
