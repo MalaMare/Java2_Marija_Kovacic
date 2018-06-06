@@ -15,6 +15,7 @@ public class Student {
     private Computer computer;
     
     
+    
     public Student() {
         this.course = new Course();
         this.computer = new Computer();
@@ -76,11 +77,13 @@ public class Student {
         System.out.println("First name: " +getFirstName());
         System.out.println("Last name: " +getLastName());
         System.out.println("Year of birth: " +getYearOfBirth());
+        
         System.out.println("Course name: " +getCourse().getName());
         System.out.println("Nomber of classes" +getCourse().getNumberOfClasses());
         System.out.println("Hard drive: " +getComputer().getHardDrive());
         System.out.println("Memory: " +getComputer().getMemory());
         System.out.println("Process Tact: "+getComputer().getProcessTact());
+        System.out.println();
         
     }
     
